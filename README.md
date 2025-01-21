@@ -20,7 +20,7 @@ A sleek and functional to-do list application built using **HTML**, **CSS**, and
 3. Start managing your tasks!
 
 ## Screenshots
-![todo.jpeg]
+![screenshot](todo.jpeg)
 
 ## Future Enhancements
 - Save tasks using `localStorage`.

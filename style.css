@@ -97,6 +97,22 @@ ul {
   .delete-btn:hover {
     background-color: #d93636;
   }
+  .footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f8f9fa;
+    color: #333;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer p {
+    margin: 0;
+  }
+  
   
   /* Responsive Design */
   @media (max-width: 500px) {

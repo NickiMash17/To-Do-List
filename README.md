@@ -4,7 +4,7 @@ https://deepwiki.com/NickiMash17/To-Do-List
 
 A clean, responsive task management application built with vanilla JavaScript.
 
-![To-Do List App Preview](https://via.placeholder.com/800x400?text=To-Do+List+App)
+![To-Do List App Preview](todo.jpeg)
 
 ## ✨ Features
 

@@ -1,109 +1,70 @@
 https://deepwiki.com/NickiMash17/To-Do-List
-# 📝 TaskMaster: Modern To-Do List Application
 
-A sleek, console-based task management solution crafted with **C#** and **.NET**. TaskMaster empowers you to effortlessly organize your daily activities through an intuitive command-line interface. This project showcases essential C# programming paradigms including object-oriented principles, collection management, file operations, and interactive user experience design.
+# 📝 Modern To-Do List
 
-## ✨ Key Features
+A clean, responsive task management application built with vanilla JavaScript.
 
-- **⚡ Task Creation** - Add new tasks with custom descriptions
-- **👁️ Task Visualization** - View all tasks with clear status indicators
-- **✅ Task Completion** - Mark tasks as done with a simple command
-- **💾 Automatic Saving** - Your tasks persist between sessions in `tasks.txt`
-- **🖥️ Elegant Interface** - Clean, intuitive menu system for seamless navigation
+![To-Do List App Preview](https://via.placeholder.com/800x400?text=To-Do+List+App)
 
-## 🛠️ Tech Stack
+## ✨ Features
 
-```
-C# | .NET 6+ | File I/O | Console UI | OOP Design
-```
+- **Simple & Intuitive UI**: Clean design focused on usability
+- **Task Management**: Add, complete, and delete tasks with ease
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Local Storage**: Coming soon - save your tasks between sessions
 
-## 🚀 Getting Started
+## 🚀 Technologies Used
 
-### Prerequisites
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
 
-- [.NET SDK](https://dotnet.microsoft.com/download) (6.0+)
-- [Visual Studio](https://visualstudio.microsoft.com/) (optional)
-- [Git](https://git-scm.com/) (for cloning)
+## 🔧 How It Works
 
-### Quick Setup
+The application allows users to:
+1. Enter task text in the input field
+2. Add tasks by clicking the "Add Task" button or pressing Enter
+3. Mark tasks as complete by clicking on them
+4. Remove tasks by clicking the delete button
 
-```bash
-# Clone repository
-git clone https://github.com/YourUsername/TaskMaster.git
-cd TaskMaster
+## 💻 Code Structure
 
-# Run application
-dotnet run
-```
+The project consists of three main files:
 
-### Alternative Setup
+### HTML (index.html)
+Contains the structure of the application including the task input field, button, and list container.
 
-1. **Using Visual Studio:**
-   - Open `TaskMaster.sln`
-   - Press F5 or click Start
+### CSS (style.css)
+Provides styling for a modern, clean interface with:
+- Soft color palette with blue accents
+- Responsive layout adjustments
+- Interactive hover effects
+- Visual feedback for completed tasks
 
-## 🎮 Usage Guide
+### JavaScript (script.js)
+Handles all the functionality:
+- Task creation and validation
+- Task completion toggling
+- Task deletion
+- Event handling for both mouse and keyboard interactions
 
-Upon launch, you'll be greeted with a clean menu interface:
+## 🌱 Future Enhancements
 
-| Command | Action |
-|---------|--------|
-| `1` | 📋 View all tasks |
-| `2` | ➕ Add a new task |
-| `3` | ✓ Complete a task |
-| `4` | 🚪 Save and exit |
+- Task persistence using local storage
+- Task categories and filtering
+- Due dates and reminders
+- Dark mode toggle
+- Drag and drop for task reordering
 
-## 📂 Project Structure
+## 📄 License
 
-```
-TaskMaster/
-├── 📄 Program.cs         # Core application logic
-├── 📄 TaskMaster.csproj  # Project configuration
-├── 📄 tasks.txt          # Task storage file
-├── 📄 README.md          # Documentation
-└── 📄 LICENSE            # MIT License
-```
+MIT License
 
-## 🤝 Contributing
+## 👩‍💻 Author
 
-We welcome contributions! Here's how:
-
-1. Fork the repository
-2. Create your feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-## 📜 License
-
-Released under the [MIT License](LICENSE) - free to use, modify, and distribute.
-
-## 💡 Example Usage
-
-```
-=== TASKMASTER ===
-1. View Tasks
-2. Add Task
-3. Complete Task
-4. Exit
-
-Enter choice: 2
-Enter task description: Finish project documentation
-
-Task added successfully!
-
-=== TASKMASTER ===
-1. View Tasks
-2. Add Task
-3. Complete Task
-4. Exit
-
-Enter choice: 1
-TASKS:
-1. [ ] Finish project documentation
-```
+Coded with ❤️ by Nicolette Mashaba
 
 ---
 
-Built with ❤️ by developers, for developers
-Make your productivity soar with TaskMaster!
+Feel free to fork, modify, and use this project for personal or educational purposes!
+
